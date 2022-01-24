@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-
+import gatU from "./assets/gatito1.jpg";
+import gatD from "./assets/gatito2.jpg"
 
 
 function App() {
@@ -40,8 +41,8 @@ function App() {
           </div>
         ))
       }
-      
-      
+      <img src={gatU} alt="gatito1" />
+      <img src={gatD} alt="gatito2" />
     </div>
     
   );
